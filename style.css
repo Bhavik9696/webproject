@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+  margin: 5px;
+}
+
+
+.button:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+/* #grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+
+#orange{
+  background-color: orange;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+} */
+
+#white { background: white; }
+#silver { background: silver; }
+#gray { background: gray; }
+#black { background: black; }
+
+/* Reds */
+#pink { background: pink; }
+#red { background: red; }
+#darkred { background: darkred; }
+#crimson { background: crimson; }
+
+/* Oranges */
+#coral { background: coral; }
+#orange { background: orange; }
+#orangered { background: orangered; }
+
+/* Yellows */
+#gold { background: gold; }
+#yellow { background: yellow; }
+#khaki { background: khaki; }
+
+/* Greens */
+#green { background: green; }
+#lime { background: lime; }
+#limegreen { background: limegreen; }
+#seagreen { background: seagreen; }
+
+/* Blues */
+#blue { background: blue; }
+#skyblue { background: skyblue; }
+#navy { background: navy; }
+#dodgerblue { background: dodgerblue; }
+
+/* Purples */
+#purple { background: purple; }
+#violet { background: violet; }
+#orchid { background: orchid; }
+#magenta { background: magenta; }
+
+/* Browns */
+#brown { background: brown; }
+#tan { background: tan; }
+#burlywood { background: burlywood; }
+#sienna { background: sienna; }
+
+
+.clrname{
+  border: 2px solid black;
+  display: inline-block;
+  height: 30px;
+  width: 90px;
+  padding-top: 12px;
+  border-radius: 1.5rem;
+  font-size: large;
+  font-weight: 600;
+  background-color: aliceblue;
+}
